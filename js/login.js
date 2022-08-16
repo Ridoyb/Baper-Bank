@@ -15,7 +15,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     //Danger: Do not use it for client side
     //step-4: verify email and password
 
-    if (email === 'ridoy@gmail.com' && Password === 'ridoy@8730') {
+    if (email === 'ridoy@gmail.com','nafee01@gmail.com','sadik@gmail.com' && Password === 'ridoy@8730','nafee@8730','sadik@35') {
         document.getElementById("btn-submit").onclick = function () {
             location.href = "bank.html";
         };
